@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.punto1{
+    color: blue;
+    text-align: center;
+}
+
+.punto1 > h1{
+    font-size: 40px;
+}
+
+.punto1 > h2{
+    font-size: 30px;
+}
+
+.punto1 > h3{
+    font-size: 20px;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 20px;
+}
+
+.img1 > img, .img2 > img, .img3 > img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.top-content{
+    display: flex;
+    border: 1px solid black;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.imagen > img{
+    width: 200px;
+    height: 200px;
+}
+
+.descrip{
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.descrip > p{
+    font-size: 16px;
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla > table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.tabla th {
+    background-color: blue; 
+    color: white; 
+}
+
+.tabla td {
+    padding: 8px;
+}
+
+.rango{
+    background-color: #4f1717;
+    color: wheat;
+}
+
+.countries{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.banderas div {
+    display: flex;
+    width: 100px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .francia-azul {
+    background-color: blue;
+  }
+  
+  .francia-blanco {
+    background-color: white;
+  }
+  
+  .francia-rojo {
+    background-color: red;
+  }
+
+  .alemania{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .alemania-negro {
+    background-color: black;
+  }
+  
+  .alemania-rojo {
+    background-color: red;
+  }
+  
+  .alemania-amarillo {
+    background-color: yellow;
+  }
+  
+  .italia-verde {
+    background-color: green;
+  }
+  
+  .italia-blanco {
+    background-color: white;
+  }
+  
+  .italia-rojo {
+    background-color: red;
+  }
